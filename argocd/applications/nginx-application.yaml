@@ -1,4 +1,4 @@
-appVersion: argoproj.io/v1alpha1
+apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: nginx-demo
@@ -15,4 +15,4 @@ spec:
   syncPolicy:
     automated:
       prune: true
-      selfHeal: trueß
+      selfHeal: true
